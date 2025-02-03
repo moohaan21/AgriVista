@@ -1,0 +1,468 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat";
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+
+}
+
+.header ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+.btnLogin{
+    background-color: #204E51;
+    font-size: 28px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: none;
+}
+
+.btnSing{
+    background-color: white;
+    font-size: 28px;
+    color: #204E51;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: 2px solid #204E51;
+
+}
+
+.hero{
+    background-color:#204E51 ;
+    height: 550px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://img.freepik.com/free-photo/african-man-harvesting-vegetables_23-2151441271.jpg?t=st=1733731835~exp=1733735435~hmac=93ad543e04e0e13d9c471c7800903421b2b30b48b1d659066953efdd2a13a9ed&w=826");
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+}
+
+.hero h1{
+    padding-top: 150px;
+    font-size: 80px;
+
+}
+
+.passion-left{
+    width: 500px;
+}
+
+.btnLogin{
+    margin-top: 20px;
+}
+
+.passion-right{
+    width: 500px;
+    position: relative;
+}
+
+.passion-parent{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 1px;
+
+}
+
+.passion-left h1{
+    font-size: 60px;
+}
+
+.passion-right img{
+    width: 500px;
+    height: 460px;
+    border-radius: 12px;
+}
+.passion-right button{
+    padding: 30px 100px ;
+    border: none;
+    font-size: 32px;
+    background-color: rebeccapurple;
+    border-radius: 10px; 
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+
+
+}
+
+
+.section-title{
+    text-align: center;
+    margin: 20px 0px;
+
+}
+
+.section-title h1{
+    font-size: 70px;
+    text-shadow: 3px 10px 10px gray;
+}
+.section-title p{
+    margin: 10px 400px;
+}
+
+.service{
+    width: 250px;
+    height: 250px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 3px 20px 10px gray;
+}
+.service h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.service i{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.services-parent{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+
+.product{
+    height: 400px;
+    width: 250px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 15px;
+    box-shadow: 3px 15px 10px gray;
+
+}
+.Product-parent{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  
+}
+.product img{
+    width: 200px;
+    height: 170px;
+    border-radius: 20px;
+}
+.product p{
+    font-size: 13px;
+}
+
+.sustain{
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://img.freepik.com/free-photo/tractor-agricultural-machine-working-field_342744-499.jpg?uid=R178332170&ga=GA1.1.1111619757.1723558913&semt=ais_hybrid");
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    padding-left: 100px;
+    color: white;
+
+}
+.sustain h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.sustain button{
+    background-color: #204E51;
+    font-size: 28px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.benefit-left{
+    width: 600px;
+}
+.benefit-right{
+    width: 500px;
+    height: 650px;
+    background-color: #204E51;
+    color: white;
+    margin-bottom: 20px;
+}
+.benefit-parent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}.benefit-left h1{
+    font-size: 80px;
+    margin-top: 90px;
+}
+.benefit-left button{
+    background-color: #204E51;
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: none;
+}
+.icon-parent{
+    display: flex;
+    gap: 50px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.icon-parent i{
+    font-size: 50px;
+}
+
+.Testmonial {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+ 
+
+}
+
+.Testmonial-parent{
+    display: grid;
+    grid-template-columns: 80px 900px 80px ;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 70px;
+    
+}
+.Testmonial i{
+    margin-top: 200px;
+    font-size: 50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 10px 6px gainsboro;
+}
+#Testmonial-center{
+    background-color: #204E51;
+    border-radius: 20px;
+}
+.review-parent img{
+width:200px ;
+height: 200px;
+border-radius: 10px;
+}
+
+.review-parent{
+    display: flex;
+    color: white;
+    gap: 40px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.review-parent i{
+    color: #ffbe40;
+    font-size: 22px;
+    margin: 5px;
+}
+.review-parent h1{
+    margin: 20px 0px;
+}
+
+.header i{
+    display: none;
+}
+
+.skils-parent{
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 20px 50px;
+
+}
+.skils-parent img{
+    width: 350px;
+    height: 420px;
+    border-radius: 15px;
+}
+.skils-parent p{
+    margin: 20px 0px;
+}
+.skils-parent h1{
+    font-size: 23px;
+    margin: 20px 0px;
+}
+.skils-parent h6{
+    margin: 10px 0px;
+}
+
+.farms-parent{
+    height: 500px;
+    background-color: #204E51;
+    margin-top: 250px;
+    color: white;
+    margin-bottom: 10px;
+}
+.farms-center{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+.page{
+    display: flex;
+    gap: 60px;
+}
+.left-page ul{
+   list-style: none;
+   margin: 20px 0px;
+}
+.left-page h1{
+    font-size: 35px;
+    margin-right: 40px;
+}
+
+.right-page ul{
+    list-style: none;
+    margin: 20px 0px;
+ }
+ .right-page h1{
+     font-size: 35px;
+     margin-right: 40px;
+ }
+ .agri p{
+  margin-top: 20px;
+ }
+ .agri  i{
+    margin-top: 50px;
+    font-size: 40px;
+ }
+ .agrivist{
+    display: flex;
+    gap: 30px;
+ }
+
+ .saalax{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    grid-template-columns: 300px 200px 300px;
+ }
+
+
+@media screen and (max-width:600px ){
+    .btns{
+        display: none;
+    }
+
+    .header ul{
+        display: none;
+    }
+    .header i {
+        display:  block;
+        font-size: 32px;
+    }
+    .header{
+        padding: 20px;
+    }
+    .hero h1{
+        font-size: 28px;
+    }
+    .hero .btnLogin{
+        margin-bottom: 20px;
+    }
+
+    .passion-parent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .passion-left, .passion-right {
+        width: 360px;
+    }
+    .passion-left h1{
+        font-size: 28px;
+    }
+    .passion-right img{
+        width: 300px;
+    }
+    .passion-parent  bottom{
+        padding: 20px;
+        font-size: 18px;
+    }
+    .section-title h1{
+        font-size: 50px;
+    }
+    .services-parent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-title p{
+        margin: 20px;
+    }
+
+    .Product-parent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sustain h1{
+        font-size: 28px;
+    }
+    .sustain{
+        padding: 20px;
+        
+    }
+    .sustain bottom{
+        margin-bottom: 20px;
+    }
+    .benefit-left, .benefit-right{
+        width: 300px;
+        
+    }
+    .benefit-parent{
+        padding: 20px;
+        flex-direction: column;
+        
+    }
+    .benefit-left h1{
+        font-size: 30px;
+    }
+    .benefit-right{
+        margin-top: 20px;
+    }
+    .icon-parent{
+        margin-left: 10px;
+    }
+    .Testmonial-parent{
+        grid-template-columns: 30px 210px 30px;
+    }
+    
+    .review-parent img{
+        width: 150px;
+        height: 100px;
+    }
+    .review-parent{
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+        padding: 20px;
+        font-size: 10px;
+        text-align: center;
+        gap: 5px;
+    }
+    .review-parent i{
+        font-size: 18px;
+    }
+    .review-parent h1{
+        font-size: 22px;
+    }
+    
+    .Testmonial i{
+        padding: 20px;
+        font-size: 22px;
+    }
+
+}
